@@ -10,7 +10,7 @@
 #SBATCH -t 48:00:00
 #
 #SBATCH --mail-type=ALL
-#SBATCH --mail-user=jjgruber@stanford.edu
+#SBATCH --mail-user=user_email
 #
 # The number of threads we will require
 #SBATCH -n 1
@@ -28,7 +28,7 @@
 
 
 ###### type to command line ######
-########## for sample in CtlH3K14PrA CtlH3K14PrB CtlH4K12BuA CtlH4K12BuB PropH3K14PrA PropH3K14PrB ButH4K12BuA ButH4K12BuB 
+########## for sample in Ctl1 Ctl1 Ctl3 Ctl4 Prop1 Prop2 But1 But2
 ########## do 
 ########## sbatch -J phan_${sample} --export=sampleID=${sample},bamdir=/<path_to_working_directory>/data/ChIP-seq/step1/FinalAlign,outdir=/<path_to_working_directory>/data/ChIP-seq/phantom/ phantom.sh
 ########## done
