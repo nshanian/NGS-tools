@@ -1,2 +1,1 @@
-# NGS-tools
-NGS data analysis tools
+## NGS data analysis tools
