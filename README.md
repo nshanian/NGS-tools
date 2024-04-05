@@ -29,3 +29,13 @@ https://code.google.com/archive/p/align2rawsignal/
 https://deeptools.readthedocs.io/en/develop/index.html
 
 http://homer.ucsd.edu/homer/motif/
+
+The scripts `run_spp.R` and `run_spp_nudups.R` called in `phantom.sh` are by:
+
+[1] Anshul Kundaje, Computer Science Dept., MIT, ENCODE Consortium, http://code.google.com/p/phantompeakqualtools, Feb 2013
+
+[2] Kharchenko PK, Tolstorukov MY, Park PJ, Design and analysis of ChIP-seq experiments for DNA-binding proteins Nat Biotechnol. 2008
+
+Please see README.txt for more information.
+
+
